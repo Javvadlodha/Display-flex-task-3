@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    text-align: center;
+    background-color: green;
+    color: white;
+    padding-bottom: 50px;
+}
+.heading, .category,.list {
+    display: flex;
+    margin: 10px;
+    align-items: center;
+}
+.sign{
+    display: flex;
+    align-items: center;
+}
+.menubar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding-bottom: 20px; */
+}
+.i-1{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.i-2{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+.li-1,.li-2,.li-3,.li-4,.li-5,.p-1,.login,.hire{
+    margin-right: 10px;
+}
+.category{
+    background-color: grey;
+    border-radius: 15px;
+    padding: 5px;
+}
+.hire{
+    background-color: yellow;
+    color: black;
+    border-radius: 15px;
+    padding: 5px;
+}
+.d-2{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.box-1,.box-3{
+    border: 1px solid;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+.b-1{
+    margin: 10px;
+}
+.btn{
+    background-color: green;
+    border-radius: 20px;
+    color: white;
+    padding: 10px 30px;
+}
+.box-2{
+    border: 1px solid yellow;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(217, 217, 109, 0.559);
+}
+.btn-2{
+    background-color: rgb(19, 236, 2);
+    border-radius: 20px;
+    color: green;
+    padding: 10px 30px;
+}
+h1{
+    margin-bottom: 10px;
+}
+span{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.btn-3{
+    background-color: yellow;
+    border-radius: 20px;
+    color: green;
+    padding: 10px 30px;
+}
+
+.b3-1{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.detail-1,.detail-2{
+    text-align: center;
+    margin-top: 20px;
+    padding: 30px 0;
+}
+.para-1{
+    width: 600px;
+    margin: auto;
+}
+.detail-2{
+    background-color:#8080804a;
+    
+}
+.box2-1,.box2-3{
+    background-color: white;
+    border: 1px solid white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;   
+}
+.box2-2{
+    border: 2px solid green;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;   
+}
+.d-2{
+    color: green;
+}
+
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    border-bottom:  1px solid whitesmoke;
+    margin-top: 30px;
+}
+.headfooter{
+    margin-bottom: 20px;
+}
+.job{
+    display: flex;
+}
+.job-1,.job-2{
+    border: 1px solid;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.job-2{
+    background-color: yellow;
+    margin-left: 5px;
+}
+.brand{
+    display: flex;
+}
+.footerdata{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.footerdata h2,.footerdata li,.footerdata p,.footerdata email {
+    margin-bottom: 15px;
+}
+.email{
+    padding: 10px ;
+    margin-bottom: 5px;
+}
+.footerdata p{
+    font-size: smaller;
+}
+.footer-line{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.head-3{
+    display: flex;
+}
+.icon img{
+    width: 30px;
+    height: 30px;
+}

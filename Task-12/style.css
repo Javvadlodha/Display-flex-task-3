@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.logo img {
+    width: 90px;
+    height: 40px;
+}
+
+ul li {
+    list-style-type: none;
+    font-size: small;
+    margin-right: 20px;
+}
+
+.country img {
+    width: 20px;
+    height: 20px;
+}
+
+.con-lan {
+    display: flex;
+    margin-right: 20px;
+}
+
+.cart img {
+    width: 20px;
+    height: 20px;
+}
+
+.all {
+    width: 50px;
+    background-color: antiquewhite;
+    border-right: 1px solid antiquewhite;
+}
+
+.search {
+    width: 700px;
+    margin-right: 20px;
+}
+.cart{
+    display: flex;
+    align-items: center;
+}
+.cart li{
+    list-style: none;
+}
+.cart img{
+    width: 30px;
+    height: 30px;
+}
+.menu-bar select{
+    border: none;
+    background-color: #07153a;
+    color: white;
+    text-align: left;
+    font-size: large;
+}
+menu ul li select{
+    /* font-size: large; */
+}
+.menu-bar{
+    display: flex;
+    padding: 5px;
+    background-color: #07153a;
+    color: white;
+    width: max-content
+}
+.menu-bar li{
+    font-size: large;
+}
+.offer sup{
+    font-size: xx-small;
+}
+
+/* main-content */
+body{
+    background-color: aqua;
+}
+.main-offer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.big-offer {
+    width: 100%;
+}
+.electronic,.headphones,.amazon-brands,.revamp-home,.Appliance-for-home,.style-for-women,.automative-essentials{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    /* border: 1px solid black; */
+    width: 268px;
+    margin: 10px;
+    background-color: white;
+}
+.electronic img,.headphones img,.amazon-brands img,.revamp-home img,.Appliance-for-home img,.style-for-women img,.automative-essentials img{
+    width: 128px;
+}
+.electronic h3,.headphones h3,.amazon-brands h3,.revamp-home h3,.Appliance-for-home h3,.style-for-women h3,.automative-essentials h3{
+    font-size: x-large;
+}
+.electronic p,.headphones p,.amazon-brands p,.revamp-home p,.Appliance-for-home p,.style-for-women p,.automative-essentials p{
+    width: 128px;
+}
+.electronic span,.headphones span,.amazon-brands span,.revamp-home span,.Appliance-for-home span,.style-for-women span,.automative-essentials span{
+    color: blue;
+    margin-top: 20px;
+}

@@ -1,0 +1,380 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* color */
+:root {
+    --primary: rgb(18, 18, 80);
+    --secondary: white;
+    --thirary: rgb(255, 216, 216);
+    --for: rgb(247, 14, 14);
+}
+
+/* background-color */
+:root {
+    --first: orange;
+    --second: rgba(128, 128, 128, 0.116);
+    --third: pink;
+    --forth: rgb(18, 18, 80);
+    --five: rgba(255, 0, 0, 0.153);
+}
+
+/* font-family */
+@font-face {
+    font-family: Ubuntu-Bold;
+    src: url(../Font/Ubuntu/Ubuntu-Bold.ttf);
+}
+
+@font-face {
+    font-family: Ubuntu-Medium;
+    src: url(../Font/Ubuntu/Ubuntu-Medium.ttf);
+}
+
+@font-face {
+    font-family: Ubuntu-Regular;
+    src: url(../Font/Ubuntu/Ubuntu-Regular.ttf);
+}
+
+@font-face {
+    font-family: Ubuntu-Italic;
+    src: url(../Font/Ubuntu/Ubuntu-Italic.ttf);
+}
+
+/* web-page */
+.web-page {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/* header style */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+.company-name {
+    display: flex;
+    align-items: center;
+    font-family: ubuntu-italic;
+}
+
+.company-name img {
+    width: 40px;
+    height: 30px;
+}
+
+.menu-bar {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-family: Ubuntu-Regular;
+    gap: 10px;
+}
+
+.sign-up button {
+    padding: 10px;
+    border-radius: 25px;
+    font-family: Ubuntu-Regular;
+
+}
+
+.sign-up .post-a-job {
+    background-color: var(--first);
+    color: var(--secondary);
+}
+
+/* main-content */
+.main-content {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+/* -company-details */
+.company-details {
+    border: 1px solid whitesmoke;
+    width: 300px;
+    padding: 10px;
+    background-color: var(--second);
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.company-details img {
+    width: 100px;
+    height: 100px;
+}
+
+.job-name {
+    text-align: center;
+}
+
+.job-name h3 {
+    border-bottom: 1px solid black;
+}
+
+.company-details h4 {
+    margin-top: 5px;
+    color: var(--thirary);
+}
+
+.company-details p {
+    color: var(--primary);
+}
+
+.company-details button {
+    padding: 5px 100px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: var(--forth);
+    color: var(--secondary);
+}
+
+/* Recrument-details */
+.recrument-details {
+    border: 1px solid whitesmoke;
+    width: 300px;
+    padding: 10px;
+    background-color: var(--second);
+    border-radius: 10px;
+}
+
+.recrument-details h4 {
+    border-bottom: 1px solid black;
+}
+
+.recrument-details h4{
+    margin-top: 5px;
+    color: var(--primary);
+}
+
+.recrument-details h6 {
+    margin : 10px 0 5px 0;
+    color: var(--thirary);
+}
+
+.recrument-details p {
+    color: var(--primary);
+}
+
+.social {
+    width: 20px;
+    height: 20px;
+}
+
+.send-message {
+    padding: 10px 100px;
+    background-color: var(--first);
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+/* salary-experiency */
+.salary-exp-1 h6,.salary-exp-2 h6{
+    margin-top: 10px;
+    color:var(--thirary)
+}
+.salary-experience {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: x-large;
+    height: 200px;
+    padding: 20px;
+}
+
+/* language */
+.language {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    border-radius: 10px;
+    list-style: none;
+    margin-top: 30px;
+    padding: 15px;
+}
+
+.language li {
+    background-color: var(--first);
+    border-radius: 20px;
+    margin: 5px;
+    padding: 10px 10px;
+}
+
+/* paragraph */
+.para,
+.para-2 {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 5px;
+    /* width: 750px; */
+}
+
+/* education */
+.degree {
+    display: flex;
+    margin-right: 3px;
+}
+
+.degree li {
+    background-color: var(--third);
+    border-radius: 10px;
+    padding: 5px;
+    color: var(--primary);
+    margin: 10px 5px;
+}
+
+.para-2 h3 {
+    color: var(--primary);
+    margin-top: 10px;
+}
+
+.heading h2 {
+    margin: 0 0 20px 0;
+}
+
+/* devloper */
+.devloper {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* php-devloper */
+.php-devloper,
+.c-java,
+.web-designer {
+    border: 1px solid black;
+
+    padding: 5px;
+}
+
+.php-devloper-detail,
+.c-java-detail,
+.web-designer-detail {
+    background-color: var(--third);
+}
+
+.php-devloper h4,
+.c-java h4,
+.web-designer h4 {
+    margin: 10px 0;
+}
+
+.php-requirment,
+.c-java-requirment,
+.web-designer-requirment {
+    display: flex;
+    list-style: none;
+}
+
+.php-requirment li,
+.c-java-requirment li,
+.web-designer-requirment li {
+    margin-right: 5px;
+    background-color: var(--five);
+    padding: 3px;
+    border-radius: 5px;
+    font-size: smaller;
+    margin-bottom: 10px;
+    color: var(--for);
+}
+
+.php-salary-location,
+.c-java-salary-location,
+.web-designer-salary-location {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.php-salary-location p,
+.c-java-salary-location p,
+.web-designer-salary-location p {
+    margin-bottom: 5px;
+}
+
+.php-salary-location .salary-img,
+.c-java-salary-location .salary-img,
+.web-designer-salary-location .salary-img {
+    margin-right: 3px;
+    width: 10px;
+}
+
+.php-salary-1,
+.php-location-1,
+.c-java-salary-1,
+.c-java-location-1,
+.web-designer-salary-1,
+.web-designer-location-1 {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.skill {
+    display: flex;
+    list-style: none;
+}
+
+.skill li {
+    margin: 0 5px 10px 0;
+}
+
+.releted-adobe,
+.releted-google,
+.releted-master {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--secondary);
+}
+
+.releted-adobe button,
+.releted-google button,
+.releted-master button {
+    padding: 5px 20px;
+    background-color: var(--forth);
+    color: var(--secondary);
+    border-radius: 5px;
+}
+
+.releted-adobe .img,
+.releted-google .img {
+    width: 50px;
+    height: 50px;
+}
+/* footer */
+/* about company */
+footer{
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: var(--forth);
+    color: var(--secondary);
+    margin-top: 40px;
+    padding-top: 40px;
+}
+.about-company-head{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.company-detail{
+    display: flex;
+    justify-content: space-between;
+
+}
+.about-company img{
+    height: 50px;
+    width: 50px;
+}
+.about-company p{
+    width: 250px;
+}

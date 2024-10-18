@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    gap: 30px;
+}
+.sales,.revenue,.customer{
+    border: 10px solid rgba(135, 207, 235, 0.3);
+    padding: 25px;
+    border-radius: 20px;
+}
+.heading{
+    display: flex;
+    align-items: center;
+}
+.heading p{
+    color: #0000005a;
+}
+.sales img{
+    width: 60px;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+.one,.two{
+    display: flex;
+}
+h3.one-1{
+    font-size: xx-large;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+h6.one-2{
+    margin-left: 15px;
+    font-size: large;
+}
+.revenue img{
+    width: 70px;
+    margin-top: 8px;
+}
+h3.two-1{
+    font-size: xx-large;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+h6.two-2{
+    margin-left: 15px;
+    font-size: large;
+}
+.customer img{
+    width: 70px;
+    margin-top: 8px;
+}
+h3.three-1{
+    font-size: xx-large;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+h6.three-2{
+    margin-left: 15px;
+    font-size: large;
+}
+.one-2 span,.two-2 span{
+    color: green;
+}
+.three-2 span{
+    color: red;
+}
+.three{
+    display: flex; 
+} 
+
